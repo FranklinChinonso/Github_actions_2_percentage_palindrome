@@ -9,4 +9,4 @@ def test_percentage_calculator():
 def test_is_palindrome():
     assert is_palindrome("madam")
     assert is_palindrome("racecar")
-    assert is_palindrome("Good Morning")    
+    assert not is_palindrome("Good Morning")    
